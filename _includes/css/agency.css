@@ -874,17 +874,13 @@ body {
 
 .img-list {
     list-style: none;
+    padding: 0;
+    margin-left: 0;
 }
 
 
 .img-list li {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 2px;
+    margin-bottom: 4px;
 } 
-
-.img-list li img {
-    width: 500px;
-}  
