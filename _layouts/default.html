@@ -6,14 +6,17 @@
 
     <body id="page-top" class="index">
 
-    {% include header.html %}
-    {% include services.html %}
-    {% include media.html %}
-    {% include unterricht.html %}
-    {% include team.html %}    
+    <div class="container">
+        <h1><a href="/">{{ site.title}}</a></h1>
+    </div>
+
+    <section class="bg-light-gray">
+        <div class="container">
+            {{ content }}
+        </div>
+    </section>
+
     {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
 
     </body>
 </html>

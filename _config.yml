@@ -1,10 +1,10 @@
-url: http://tokoehn.github.io
+url: http://tobias-koehn.de
 baseurl: ""
 
 # Site settings
 title: Tobias Koehn
 email: kontakt@tobias-koehn.de
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Pianist, Sänger aus Paderborn. Keyboard– und Klavierunterricht für Anfänger und Fortgeschrittene."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -26,8 +26,6 @@ people:
       url: mailto:kontakt@tobias-koehn.de
     - title: phone
       url: tel:+4915732520000
-    
-
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -44,4 +42,3 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
