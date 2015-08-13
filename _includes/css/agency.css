@@ -876,14 +876,15 @@ body {
     list-style: none;
 }
 
+
 .img-list li {
     width: 200px;
     height: 200px;
     overflow: hidden;
     display: inline-block;
     margin-right: 10px;
-}
+} 
 
 .img-list li img {
     width: 500px;
-}
+}  
