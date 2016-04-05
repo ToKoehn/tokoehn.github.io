@@ -884,3 +884,28 @@ body {
     margin-right: 2px;
     margin-bottom: 4px;
 } 
+
+.srights, .slefts {
+    right: 0;
+    padding: 5px;
+    position: fixed;
+    top: 40%;
+    height: auto;
+    display: block;
+    width: 30px;
+    margin: 0 1px;
+    opacity: 0.5;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    z-index: 99;
+}
+
+.socials {
+    float: right;
+    position: relative;
+    margin-right: 10px;
+    height: 30px;
+    overflow: hidden;
+}
